@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  /* background: palevioletred; */
+  background: url("https://cdn.shopify.com/s/files/1/0257/6718/2416/files/Party-Background-green-with-presents.jpg?v=1595051600") no-repeat ;
+  background-size: cover;
+}
+.cont{
+  background: rgba(255, 255, 255, 0.548);
+  height: 44em;
+  margin: 1em 40%;
+  text-align: left;
+  border: 4px solid yellowgreen;
+  border-radius: 15px;
+  border-bottom-color: yellowgreen ;
+  width: 25em;
+  box-shadow: rgb(32, 32, 32) 4px 5px 8px;
+}
+.flex{
+  display: flex;
+}
+
+#img{
+  border-radius: 50%;
+  height: 70px;
+  margin-left: 15px;
+}
+h2{
+  font-weight: 500;
+  text-align: center;
+}
+p{
+  margin-top: -1em;
+  margin-left: 0.2rem;
+}
+h3{
+  margin-top: 0.5em;
+}
+p,h3{
+  padding-left: 1em;
+}
+button{
+ font-size: 1.7em;
+margin-left: 35%;
+background: palevioletred;
+border: 2px solid transparent;
+border-radius: 12px;
+}
+
+@media only screen and (max-width:400px) {
+  .cont{
+    margin: auto 1em ;
+    width: 20em;
+  }
+  
+}
